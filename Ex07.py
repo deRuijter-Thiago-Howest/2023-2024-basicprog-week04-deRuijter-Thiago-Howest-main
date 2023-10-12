@@ -31,15 +31,15 @@ strings = ["appel", "peer", "appelsien"]
 
 
 #tweede versie
-# def geef_info_list(naam_list:str, list_elementen: List) -> str:
+def geef_info_list(naam_list:str, list_elementen: List) -> str:
     
-#     info = ""
-#     info += f"De naam van de list in {naam_list}\n"
-#     teller = 0
-#     for element in list_elementen:
-#         info += f"{element} zit op positie {teller}\n"
-#         teller += 1
-#     return info
+    info = ""
+    info += f"De naam van de list in {naam_list}\n"
+    teller = 0
+    for element in list_elementen:
+        info += f"{element} zit op positie {teller}\n"
+        teller += 1
+    return info
 
 def geef_info_list(naam_list:str, list_elementen: List) -> str:
     
